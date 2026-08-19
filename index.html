@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Privacy Policy for the Lifestyle wellness app." />
+<title>Lifestyle — Privacy Policy</title>
+<style>
+  :root {
+    --paper: #eef2e8;
+    --column: #fbfcf9;
+    --ink: #22291f;
+    --ink-soft: #58604e;
+    --line: #dbe1d2;
+    --accent: #26332a;
+    --accent-soft: #e4ebdd;
+    --terra: #c05f33;
+    --shadow: 0 1px 2px rgba(34,41,31,.04), 0 12px 32px rgba(34,41,31,.06);
+    --maxw: 43rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #14180f;
+      --column: #1c2118;
+      --ink: #edf0e7;
+      --ink-soft: #9aa28d;
+      --line: #2b3226;
+      --accent: #bcccab;
+      --accent-soft: #262e20;
+      --terra: #d08a5e;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #14180f; --column: #1c2118; --ink: #edf0e7; --ink-soft: #9aa28d;
+    --line: #2b3226; --accent: #bcccab; --accent-soft: #262e20; --terra: #d08a5e;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 32px rgba(0,0,0,.35);
+  }
+  :root[data-theme="light"] {
+    --paper: #eef2e8; --column: #fbfcf9; --ink: #22291f; --ink-soft: #58604e;
+    --line: #dbe1d2; --accent: #26332a; --accent-soft: #e4ebdd; --terra: #c05f33;
+    --shadow: 0 1px 2px rgba(34,41,31,.04), 0 12px 32px rgba(34,41,31,.06);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.25rem, 4vw, 3rem) 1.25rem 4rem; }
+
+  header.masthead { padding-top: clamp(1.5rem, 5vw, 3.5rem); }
+  .eyebrow {
+    font-size: .72rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--terra); margin: 0 0 .9rem;
+  }
+  h1 {
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", ui-serif, serif;
+    font-weight: 600; font-size: clamp(2.1rem, 6vw, 3rem); line-height: 1.08;
+    letter-spacing: -.01em; margin: 0; text-wrap: balance;
+  }
+  .meta { color: var(--ink-soft); font-size: .95rem; margin: 1rem 0 0; }
+  .rule { height: 2px; width: 3rem; background: var(--terra); border: 0; margin: 1.6rem 0 0; }
+
+  .summary {
+    background: var(--column); border: 1px solid var(--line); border-radius: 16px;
+    box-shadow: var(--shadow); padding: clamp(1.25rem, 3vw, 1.75rem); margin: 2.5rem 0 0;
+  }
+  .summary h2 { margin-top: 0; }
+  .summary ul { margin: 0; padding-left: 1.15rem; }
+  .summary li { margin: .5rem 0; }
+  .summary li::marker { color: var(--terra); }
+
+  main { margin-top: 2.75rem; }
+  section { margin-top: 2.75rem; }
+  h2 {
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", ui-serif, serif;
+    font-weight: 600; font-size: 1.5rem; letter-spacing: -.01em; line-height: 1.2;
+    margin: 0 0 .35rem; text-wrap: balance;
+  }
+  h2 .num {
+    font-family: system-ui, sans-serif; font-size: .8rem; font-weight: 600;
+    color: var(--ink-soft); letter-spacing: .1em; display: block; margin-bottom: .4rem;
+  }
+  h3 { font-size: 1.02rem; font-weight: 650; margin: 1.5rem 0 .2rem; }
+  p { margin: .7rem 0; max-width: 66ch; }
+  a { color: var(--ink); text-decoration-color: var(--terra); text-underline-offset: 3px; }
+  ul.plain { padding-left: 1.15rem; margin: .7rem 0; max-width: 66ch; }
+  ul.plain li { margin: .45rem 0; }
+  ul.plain li::marker { color: var(--ink-soft); }
+  strong { font-weight: 650; }
+
+  .promise {
+    background: var(--accent); color: #f3f6ee; border-radius: 18px;
+    padding: clamp(1.4rem, 3.5vw, 2rem); margin-top: 2.75rem; box-shadow: var(--shadow);
+  }
+  :root[data-theme="dark"] .promise, .promise { }
+  @media (prefers-color-scheme: dark) { .promise { color: #10140d; } }
+  :root[data-theme="dark"] .promise { color: #10140d; }
+  :root[data-theme="light"] .promise { color: #f3f6ee; }
+  .promise h2 { color: inherit; margin-top: 0; }
+  .promise p { color: inherit; opacity: .92; }
+  .promise .eyebrow { color: inherit; opacity: .7; }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1.75rem; border-top: 1px solid var(--line);
+    color: var(--ink-soft); font-size: .95rem;
+  }
+  footer a { color: var(--ink); }
+  .note { font-size: .82rem; color: var(--ink-soft); font-style: italic; }
+  @media (prefers-reduced-motion: no-preference) { a { transition: text-decoration-color .15s; } }
+  a:focus-visible { outline: 2px solid var(--terra); outline-offset: 3px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">Lifestyle</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective&nbsp;August&nbsp;18,&nbsp;2026 · Last updated&nbsp;August&nbsp;18,&nbsp;2026</p>
+    <hr class="rule" />
+  </header>
+
+  <section class="summary" aria-label="The short version">
+    <h2>The short version</h2>
+    <ul>
+      <li><strong>Your health data stays yours.</strong> We read it from Apple Health only to power your own features. We never sell it, never share it with advertisers, and never use it for ads or third-party analytics.</li>
+      <li><strong>We don't build a profile on you.</strong> The only usage data we collect is how the app is used — never what your body is doing.</li>
+      <li><strong>You're in control.</strong> Choose what your squad sees, turn notifications on or off, and delete your account and all your data at any time, right in the app.</li>
+    </ul>
+  </section>
+
+  <main>
+    <section>
+      <p>Lifestyle ("the app", "we", "us") is a wellness companion for people who play sports together. It reads your activity and recovery data to give you a plain-language daily readiness suggestion, estimates nutrition from meal photos, and lets you share a simple readiness verdict with friends. This policy explains what the app collects, why, and the choices you have. Lifestyle offers wellness guidance only — it is not a medical service and does not provide medical advice or diagnosis.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">01</span>Information we collect</h2>
+
+      <h3>Health &amp; fitness data (from Apple Health)</h3>
+      <p>With your permission, the app reads data such as workouts, active energy, steps, sleep, heart rate, heart-rate variability, and resting heart rate from Apple Health. It uses this to calculate your daily readiness and to power features like your rings, trends, and (if you choose) the verdict you share with your squad. The app reads this data only — <strong>it never writes anything back to Apple Health.</strong></p>
+
+      <h3>Your check-ins</h3>
+      <p>The quick daily "how do you feel" taps (energy and body) you enter, used to sharpen your readiness suggestion.</p>
+
+      <h3>Meal photos &amp; nutrition estimates</h3>
+      <p>When you scan a meal, the photo is sent securely to our processing service to estimate calories and macros. It is used only to produce that estimate — we don't keep your meal photos, and they're never used to identify you or for advertising. The resulting estimate (which is always labeled as an estimate) is saved to your account.</p>
+
+      <h3>Account information</h3>
+      <p>You sign in with <strong>Sign in with Apple</strong>. Apple provides a unique identifier and, if you allow it, your name and an email address (which may be Apple's private relay address). We use this to create and secure your account.</p>
+
+      <h3>Squad information</h3>
+      <p>If you create or join a squad, other members can see your display name and — only if you choose to share it — your daily readiness verdict. They can <strong>never</strong> see your underlying health metrics.</p>
+
+      <h3>Approximate location</h3>
+      <p>If you allow it, the app uses your approximate location to fetch the local weather (via Apple WeatherKit) so it can suggest staying hydrated on hot days. This is used at the moment and is not stored.</p>
+
+      <h3>Subscription information</h3>
+      <p>Subscriptions are handled by Apple through the App Store. Apple processes your payment — <strong>we never see or store your card details.</strong> We keep track of whether your trial or subscription is active.</p>
+
+      <h3>Usage analytics (behavioral only)</h3>
+      <p>To understand how the app is used and make it better, we log basic behavioral events — for example, that the app was opened, which tab was viewed and for roughly how long, and that a feature (like a meal scan or check-in) was used. <strong>These events never include your health data</strong> — no verdicts, sleep, heart data, or nutrition values, only that something happened. This information is stored in our own systems and is not shared with third-party analytics or advertising companies.</p>
+    </section>
+
+    <section class="promise" aria-label="Our health-data promise">
+      <p class="eyebrow">Our health-data promise</p>
+      <h2>Your health data is never sold, shared, or advertised against.</h2>
+      <p>Data read from Apple Health is used solely to provide your own features. It is stored in your private account protected by row-level security so only you can access it, it is transmitted securely, and it is never disclosed to advertisers, data brokers, or third-party analytics services. This is a core commitment and a requirement of Apple's HealthKit policy.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">02</span>Service providers we rely on</h2>
+      <p>We use a small number of trusted providers who process data on our behalf, under their own privacy and security terms. We do not sell your data to anyone, and we work with no advertising networks or data brokers.</p>
+      <ul class="plain">
+        <li><strong>Supabase</strong> — hosts our secure database and authentication, where your account data is stored.</li>
+        <li><strong>Anthropic</strong> — processes your meal photos to generate the nutrition estimate. Photos are sent only to produce your estimate.</li>
+        <li><strong>Apple</strong> — provides Sign in with Apple, HealthKit, the App Store and subscriptions, WeatherKit, and notifications.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">03</span>How your information is protected &amp; kept</h2>
+      <p>Your data is protected in transit with standard encryption (HTTPS) and, in our database, by row-level security so each person can reach only their own information. We keep your data while your account is active. When you delete your account, your data is permanently removed.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">04</span>Your choices &amp; rights</h2>
+      <ul class="plain">
+        <li><strong>Delete everything.</strong> You can delete your account from within the app at any time. This permanently removes your profile, health summaries, check-ins, meals, verdicts, and squad memberships.</li>
+        <li><strong>Control what you share.</strong> Each squad has a "share my verdict" toggle; turn it off to share nothing. Squadmates never see raw metrics.</li>
+        <li><strong>Health permissions.</strong> You choose which Apple Health categories to allow, and can change them anytime in the Health app or iOS Settings. The app works — with fewer features — if you decline.</li>
+        <li><strong>Notifications.</strong> Notifications are optional and off unless you turn them on; manage them in the app's settings or iOS Settings.</li>
+        <li><strong>Access or questions.</strong> Contact us (below) to ask about the data associated with your account.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">05</span>Children</h2>
+      <p>Lifestyle is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided us information, please contact us and we will delete it.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">06</span>Changes to this policy</h2>
+      <p>We may update this policy as the app evolves. When we make material changes, we'll update the date at the top and, where appropriate, let you know in the app.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">07</span>Contact</h2>
+      <p>Questions about your privacy or this policy? Email <a href="mailto:issa.samer@me.com">issa.samer@me.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lifestyle — a wellness companion, not a medical service.</p>
+    <p class="note">Draft for review. Confirm the contact address and effective date, and have it reviewed before your public App Store launch.</p>
+  </footer>
+</div>
+</body>
+</html>
